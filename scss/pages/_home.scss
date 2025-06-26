@@ -1,0 +1,30 @@
+body{
+    background-color: $color-primario;
+    font-family: $fuente-principal;
+    font-style: normal;
+    
+    .destacado{
+        display: grid;
+
+        img{
+        width: 100vw;
+        height: 800px;
+        object-fit: cover;
+        display: block;
+        align-items: center;
+    }
+}
+
+    .texto{
+        @include centrar-flex;
+        text-decoration: underline;
+        padding: 25px;
+    }
+
+    .lunna{
+        @include centrar-flex;
+        flex-direction: column;
+        padding-bottom: 100px;
+        height: 300px;
+    }
+}

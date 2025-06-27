@@ -14,6 +14,19 @@ body{
         align-items: center;
     }
 }
+    .altura-carousel{
+        max-height: 800px;
+        overflow: hidden;
+    }
+    
+    .carousel{
+        @include centrar-flex;
+        img{
+            object-fit: contain;
+            max-height: 100%;
+            width: auto;
+        }
+    }
 
     .texto{
         @include centrar-flex;

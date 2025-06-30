@@ -1,5 +1,5 @@
 body{
-    background-color: $color-primario;
+    background-color: $color-secundario;
     font-family: $fuente-principal;
     font-style: normal;
     
@@ -9,6 +9,7 @@ body{
         img{
         width: 100vw;
         height: 800px;
+        gap: 50px;
         object-fit: cover;
         display: block;
         align-items: center;

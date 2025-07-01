@@ -1,19 +1,24 @@
 .propuestas{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
     padding: 20px;
     gap: 20px;
     text-decoration: underline;
 
+    article{
+        background-color: $color-primario;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+
     img{
         max-width: 100%;
         height: auto;
-        display: block;
+        border-radius: 4px;
+        margin-top: 0.5rem;
     }
 }
 
 .titulo-propuestas{
-    display: block;
     text-align: center;
 }

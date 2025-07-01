@@ -68,29 +68,31 @@
         </article>
     </section>
 
-    <!-- Formulario de contacto -->
-<form action="/submit" method="post" class="p-4">
-    <div class="mb-3">
-    <label for="Nombre" class="form-label">Nombre</label>
-    <input type="text" name="Nombre" id="Nombre" class="form-control">
-    </div>
+    <!-- mapa google maps -->
 
-    <div class="mb-3">
-    <label for="Email" class="form-label">Email</label>
-    <input type="email" name="Email" id="Email" class="form-control">
+    <div class="contact-container d-flex flex-wrap">
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.6162700732325!2d-64.18609642350924!3d-31.424696896654684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a28fd9101a75%3A0x680aabafff582caa!2sChacabuco%20626%2C%20X5000IIH%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1751322656674!5m2!1ses-419!2sar" width="400" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- Formulario de contacto -->
+        <form action="/submit" method="post" class="p-4 form-direction">
+        <div class="mb-3">
+        <label for="Nombre" class="form-label">Nombre</label>
+        <input type="text" name="Nombre" id="Nombre" class="form-control">
+        </div>
+        <div class="mb-3">
+        <label for="Email" class="form-label">Email</label>
+        <input type="email" name="Email" id="Email" class="form-control">
+        </div>
+        <div class="mb-3">
+        <label for="tel" class="form-label">Teléfono</label>
+        <input type="tel" name="tel" id="tel" class="form-control">
+        </div>
+        <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" class="form-control" rows="4"></textarea>
+        </div>
+        <input type="submit" value="ENVIAR" class="btn btn-primary">
+        </form>
     </div>
-
-    <div class="mb-3">
-    <label for="tel" class="form-label">Teléfono</label>
-    <input type="tel" name="tel" id="tel" class="form-control">
-    </div>
-
-    <div class="mb-3">
-    <label for="mensaje" class="form-label">Mensaje</label>
-    <textarea name="mensaje" id="mensaje" class="form-control" rows="4"></textarea>
-    </div>
-    <input type="submit" value="ENVIAR" class="btn btn-primary">
-</form>
 
     <footer>
         <div class="redes">

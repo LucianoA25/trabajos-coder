@@ -9,7 +9,6 @@ body{
         img{
         width: 100vw;
         height: 800px;
-        gap: 50px;
         object-fit: cover;
         display: block;
         align-items: center;
@@ -31,14 +30,38 @@ body{
 
     .texto{
         @include centrar-flex;
-        text-decoration: underline;
-        padding: 25px;
+        padding: 1px;
+        .resaltado{
+            background-color: $color-terciario;
+            border-radius: 8px;
+        }
     }
 
-    .lunna{
+    .luna{
         @include centrar-flex;
         flex-direction: column;
-        padding-bottom: 100px;
+        max-width: 300px;
         height: 300px;
+        background-color: $color-primario;
+        border-radius: 8px;
+        margin: 2rem auto;
+
+        .titulo-luna{
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            padding: 1rem;
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+        .texto-luna{
+            font-size: 1rem;
+            width: 100%;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            padding: 0 1rem;
+            text-align: justify;
+            line-height: 1.5;
+        }
     }
 }

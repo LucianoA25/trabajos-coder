@@ -45,7 +45,7 @@ footer .instagram, footer .tiktok {
     max-width: 300px;
   }
   img {
-    width: 60px;
+    width: 100%;
     height: auto;
     margin-bottom: 0.5rem;
   }
@@ -58,7 +58,6 @@ footer .instagram, footer .tiktok {
 .navbar {
   background-color: #f7bdcb;
   border: none;
-  border-bottom: 4px solid #cf252e;
 }
 
 .contacto-luna {
@@ -105,7 +104,6 @@ body .destacado {
 body .destacado img {
   width: 100vw;
   height: 800px;
-  gap: 50px;
   object-fit: cover;
   display: block;
   align-items: center;
@@ -128,16 +126,38 @@ body .texto {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-decoration: underline;
-  padding: 25px;
+  padding: 1px;
 }
-body .lunna {
+body .texto .resaltado {
+  background-color: #cf252e;
+  border-radius: 8px;
+}
+body .luna {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 100px;
+  max-width: 300px;
   height: 300px;
+  background-color: #f7bdcb;
+  border-radius: 8px;
+  margin: 2rem auto;
+}
+body .luna .titulo-luna {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: underline;
+}
+body .luna .texto-luna {
+  font-size: 1rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+  text-align: justify;
+  line-height: 1.5;
 }
 
 .propuestas {
@@ -161,6 +181,9 @@ body .lunna {
 
 .titulo-propuestas {
   text-align: center;
+  background-color: #cf252e;
+  margin: 1rem;
+  border-radius: 8px;
 }
 
 /*# sourceMappingURL=styles.css.map */

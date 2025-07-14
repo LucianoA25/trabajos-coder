@@ -7,6 +7,7 @@
 
     article{
         background-color: $color-primario;
+        color: $color-terciario;
         padding: 1rem;
         border-radius: 8px;
     }
@@ -21,7 +22,7 @@
 
 .titulo-propuestas{
     text-align: center;
-    background-color: $color-terciario;
     margin: 1rem;
     border-radius: 8px;
+    text-decoration: underline;
 }

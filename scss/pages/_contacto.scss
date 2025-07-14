@@ -31,3 +31,10 @@
         min-width: 50%;
     }
 }
+.btn-color{
+    background-color: $color-primario;
+    border-color: $color-terciario;
+    &:hover{
+        background-color: $color-terciario;
+    }
+}

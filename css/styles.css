@@ -120,15 +120,22 @@ body .altura-carousel {
   height: 800px;
   overflow: hidden;
 }
-body .carousel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body .carousel-item,
+body .carousel-inner {
+  height: 100%;
 }
-body .carousel img {
-  object-fit: contain;
-  max-height: 100%;
-  width: auto;
+body .carousel-item {
+  position: relative;
+}
+body .carousel-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: auto;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  min-height: 100%;
 }
 body .texto {
   display: flex;
